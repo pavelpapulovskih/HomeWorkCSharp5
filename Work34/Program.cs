@@ -16,7 +16,7 @@ void PrintArray(int[] array)
     Console.WriteLine();
 }
 
-int SumChetnih(int[] array)
+int CountChetnih(int[] array)
 {
     int count = 0;
     foreach (int item in array)
@@ -35,4 +35,4 @@ int arrLenth = Convert.ToInt32(Console.ReadLine());
 int[] array = new int[arrLenth];
 FillArray(array);
 PrintArray(array);
-Console.WriteLine($"Сумма четных элементов в массиве: {SumChetnih(array)}");
+Console.WriteLine($"Количество четных элементов в массиве: {CountChetnih(array)}");
